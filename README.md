@@ -1,10 +1,10 @@
-# Exp-6--Design-a-10-Led-Sequencer-circuit-using-Altium-software-and-generate-the-Gerber-file.
-# AIM:
+# Exp-6 Design a 10-Led Sequencer circuit using Altium software and generate the Gerber file.
+## AIM:
 To design the schematic and PCB layout diagram of an LED Sequencer circui circuit using Altium software.
-# EQUIPMENT REQUIRED:
+## EQUIPMENT REQUIRED:
 ●	Hardware: Personal Computer (PC)<br>
 ●	Software: Altium  <br>
-# PROCEDURE:
+## PROCEDURE:
 •  Open Altium & create a project<br>
 File → New → Project → choose PCB Project. Give it a name and folder.<br>
 •  Add a schematic sheet<br>
@@ -47,7 +47,7 @@ Zip the project folder and all output files (Gerbers, Drill, BOM, Pick-and-Place
 Upload the zip to your PCB fab and follow their order steps.<br>
 >
 
-# THEORY:
+## THEORY:
 
 555 Timer as Clock Pulse Generator<br>
 In the circuit, the 555 timer IC is configured in astable mode, which means it generates continuous square wave pulses without any external triggering. The resistors (R1 and R2) and the capacitor (C1) connected to the timer determine the timing frequency. These pulses appear at pin 3 of the 555 timer and serve as clock inputs for the next stage — the CD4017 counter. The frequency of blinking (how fast LEDs move from one to another) depends on the values of R1, R2, and C1.
@@ -64,15 +64,17 @@ After reaching Q9 (D10), the CD4017 automatically resets back to Q0 (D1) on the 
 Power Supply and Grounding<br>
 The circuit is powered by a DC supply (typically 5V or 9V) connected at the VCC and GND lines. All ICs and components share a common ground to maintain correct operation.
 
-# CIRCUIT DIAGRAM:
+## CIRCUIT DIAGRAM:
 ![image](https://github.com/user-attachments/assets/2cb084f1-22ea-4d4e-816d-eee72cd2918f)
 
- 
-# EXPECTED OUTPUT:
+
 ## Schematic diagram:
- 
+<img width="1275" height="672" alt="image" src="https://github.com/user-attachments/assets/696f7c82-dd21-43fe-9b0d-39a39e21b99d" />
+
+
 ## Layout diagram:
- 
-# RESULT:
+ <img width="1280" height="686" alt="image" src="https://github.com/user-attachments/assets/a30df839-c6e7-4a7c-954b-9c9fadb2110e" />
+
+## RESULT:
 Thus, the schematic and PCB layout for the LED sequencer circuit has been successfully designed using Altium software.
 

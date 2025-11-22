@@ -66,7 +66,7 @@ The circuit is powered by a DC supply (typically 5V or 9V) connected at the VCC 
 
 ## CIRCUIT DIAGRAM:
 ![image](https://github.com/user-attachments/assets/2cb084f1-22ea-4d4e-816d-eee72cd2918f)
-
+  
 
 ## Schematic diagram:
 <img width="1275" height="672" alt="image" src="https://github.com/user-attachments/assets/696f7c82-dd21-43fe-9b0d-39a39e21b99d" />
